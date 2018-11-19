@@ -1,0 +1,177 @@
+ body {
+    	background-color: snow;
+      --background-image: url("/image/book.jpg");
+	
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    opacity: 0.9;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+    opacity: 0.9;
+}
+
+.row{
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.containerTab input{
+  height: 35px;
+  width: 25%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0px solid gray;
+  margin-left: 20px;
+}
+.containerTab textarea{
+  height: 85px;
+  width: 25%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-left: 20px;
+}
+
+.containerTab select{
+  height: 35px;
+  width: 25%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-left: 20px;
+}
+
+.btn {
+    background-color:green; 
+    color: white; 
+    border: 2px #993399;
+    padding: 10px;
+    font-family: times;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 600px;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    color: black;
+    border: 2px #993399;
+    padding: 10px;
+    font-family: times;
+    font-weight: bold;
+    margin-left: 600px;
+}
+#uploadImage {
+	border: 0px;
+   width: 140px;
+   height: 40px;
+   margin-right:100px;
+   padding-bottom: 40px;  
+}
+#uploadImageD {
+	border: 0px;
+   width: 140px;
+   height: 40px;
+   margin-right:100px;
+   padding-bottom: 40px;  
+}
+#uploadImageE {
+	border: 0px;
+   width: 140px;
+   height: 40px;
+   margin-right:100px;
+   padding-bottom: 40px;  
+}
+
+.header {
+    background-color: #f1f1f1;
+	height:100px;
+	width:100%;
+	margin-top:-20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+.topnav .search-container{
+	float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}

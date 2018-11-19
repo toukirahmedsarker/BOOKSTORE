@@ -1,0 +1,66 @@
+body {
+    	background-color: snow;
+    	--background-image: url("/image/book.jpg");
+	
+}
+
+.input_group {
+  margin: 5px 0px 5px 0px;
+}
+.form input{
+  height: 15px;
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+
+.btn {
+    background-color:#ff0080; 
+    color: white; 
+    border: 2px #993399;
+    padding: 5px;
+    font-family: times;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    color: black;
+    border: 2px #993399;
+    padding: 5px;
+    font-family: times;
+    font-weight: bold;
+}
+
+.form{
+	color: white;
+	font-family: times;
+    border: 3px grey;
+    padding: 10px;
+    text-align :center;
+    font-size: 90%;
+    background : #993399;
+    opacity: .95;
+    width: 400px;
+    margin-left: 450px;
+    margin-bottom: 2px;  
+}
+
+.header {
+    background-color: #f1f1f1;
+	height:70px;
+	width:100%;
+	margin-top:-20px;
+}
+
+.footer {
+    background-color: 	#7FFFD4;
+    text-align: center;
+	 height: 100px;
+	 margin-top: -20px;
+	 width: 100%;
+}
